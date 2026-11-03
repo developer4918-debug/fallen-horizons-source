@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+  <!-- Page metadata and stylesheet -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#d82226">
+    <meta name="description" content="Fallen Horizons 2026: a free online solo hackathon for creators under 18. Build for the web or create a game.">
+    <title>Fallen Horizons — Hackathon 2026</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Loading introduction -->
+    <div class="intro-loader" id="intro-loader" hidden aria-label="Fallen Horizons introduction">
+      <div class="stamp">
+        <div class="stamp-inner">
+          <div class="stamp-meta">
+            <span>FALLEN HORIZONS // SYSTEM</span><b>2026</b>
+          </div>
+          <div class="loader-emblem">
+            <img src="assets/logo.png" alt="Fallen Horizon logo">
+          </div>
+          <h2>
+            FALLEN HORIZONS
+          </h2>
+          <p class="loader-tagline">
+            IMAGINE · BUILD · CREATE
+          </p>
+          <div class="loading-label">
+            <span id="loading-message">OPENING YOUR HORIZON</span><strong id="loading-percent">0%</strong>
+          </div>
+          <div class="loading-track" role="progressbar" aria-label="Introduction progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div id="loading-fill">
+            </div>
+          </div>
+          <div class="stamp-meta bottom">
+            <span>SOLO HACKATHON · ONLINE</span><span>INITIALIZING…</span>
+          </div>
+          <button id="skip-intro">SKIP INTRO ↗</button>
+        </div>
+      </div>
+    </div>
+    <aside class="corner-progress" aria-label="Page scroll progress">
+      <span class="corner-star">✦</span>
+      <div class="corner-rail">
+        <i></i>
+      </div>
+      <span class="corner-number">0%</span><span class="corner-caption">EXPLORE / 2026</span>
+    </aside>
+    <div class="progress" aria-hidden="true">
+    </div>
+    <!-- Site header and mobile navigation -->
+    <header>
+      <a class="brand" href="#home"><span class="brand-mark">FH<span>✦</span></span><span>FALLEN HORIZONS<small>HACKATHON / 2026</small></span></a><button class="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav>
+        <a href="#about">THE MISSION</a><a href="#tracks">TRACKS</a><a href="#partners">PARTNERS</a><a class="button small" data-register>REGISTER ↗</a>
+      </nav>
+    </header>
+    <main>
+      <!-- Homepage hero -->
+      <section class="hero" id="home">
+        <div class="hero-grid" aria-hidden="true">
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="dot"></span> STUDENT-LED. BUILT FOR THE BOLD.
+          </p>
+          <h1>
+            BIG IDEAS.<br>BOLD BUILDS.<br><span>YOUR HORIZON.</span>
+          </h1>
+          <p class="intro">
+            One developer. Endless possibilities. Turn your next big idea into a website or a game — and make it yours.
+          </p>
+          <div class="actions">
+            <a class="button" data-register>ENTER THE HACKATHON <span>↗</span></a><a class="text-link" href="#tracks">EXPLORE TRACKS ↓</a>
+          </div>
+          <div class="hero-tags">
+            <span>100% ONLINE</span><span>UNDER 18</span><span>FREE ENTRY</span>
+          </div>
+        </div>
+        <div class="hero-art">
+          <span class="orbit-label">CREATIVITY HAS NO CEILING</span>
+          <div class="logo-crop">
+            <img src="assets/logo.png" alt="Fallen Horizon crowned planet logo" width="1024" height="1536">
+          </div>
+          <div class="sticker">
+            SOLO MODE<br><strong>ACTIVATED ↗</strong>
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <span>2026 EDITION / INDIA · ONLINE</span><a href="#about">SCROLL TO DISCOVER ↓</a>
+        </div>
+      </section>
+      <div class="ticker" aria-hidden="true">
+        <span>BUILD SOMETHING THAT'S YOURS ✦ WEB DEVELOPMENT ✦ GAME DEVELOPMENT ✦ BUILD SOMETHING THAT'S YOURS ✦</span>
+      </div>
+      <!-- About the hackathon -->
+      <section class="section mission" id="about">
+        <p class="eyebrow">
+          01 / THE MISSION
+        </p>
+        <div class="section-grid">
+          <h2>
+            SMALL START.<br><span>BIG ENERGY.</span>
+          </h2>
+          <div>
+            <p class="large">
+              You don't need a team to make something remarkable.
+            </p>
+            <p>
+              Fallen Horizons is a student-led hackathon for young creators under 18. Bring your curiosity, choose your track, and build solo. From your first working prototype to your next ambitious project — this is your space to create.
+            </p>
+            <a class="text-link" data-community>FIND YOUR COMMUNITY ↗</a>
+          </div>
+        </div>
+        <div class="facts">
+          <div>
+            <strong>02</strong><span>CREATIVE TRACKS</span>
+          </div>
+          <div>
+            <strong>01</strong><span>DEVELOPER PER PROJECT</span>
+          </div>
+          <div>
+            <strong>₹0</strong><span>REGISTRATION FEE</span>
+          </div>
+          <div>
+            <strong>∞</strong><span>POSSIBILITIES</span>
+          </div>
+        </div>
+      </section>
+      <!-- Web and game development tracks -->
+      <section class="section tracks" id="tracks">
+        <p class="eyebrow">
+          02 / CHOOSE YOUR ARENA
+        </p>
+        <div class="section-heading">
+          <h2>
+            TWO TRACKS.<br><span>YOUR NEXT CHALLENGE.</span>
+          </h2>
+          <p>
+            Pick your playground.<br>Build something worth sharing.
+          </p>
+        </div>
+        <div class="track-grid">
+          <article class="track">
+            <div class="track-top">
+              <span>TRACK / 01</span><span>↗</span>
+            </div>
+            <div class="track-icon">
+              &lt;/&gt;
+            </div>
+            <h3>
+              WEB<br>DEVELOPMENT
+            </h3>
+            <p>
+              A useful tool. A new experience. An idea the internet hasn't seen yet. Build a website or web app that makes an impression.
+            </p>
+            <div class="chips">
+              <span>WEBSITES</span><span>WEB APPS</span><span>CREATIVE TOOLS</span>
+            </div>
+            <a data-register>BUILD FOR THE WEB ↗</a>
+          </article>
+          <article class="track game">
+            <div class="track-top">
+              <span>TRACK / 02</span><span>↗</span>
+            </div>
+            <div class="track-icon">
+              ✚ <span>● ●</span>
+            </div>
+            <h3>
+              GAME<br>DEVELOPMENT
+            </h3>
+            <p>
+              Invent a world. Design a challenge. Create that “one more try” feeling. Turn your imagination into a playable experience.
+            </p>
+            <div class="chips">
+              <span>2D / 3D</span><span>STORYTELLING</span><span>GAMEPLAY</span>
+            </div>
+            <a data-register>CREATE YOUR GAME ↗</a>
+          </article>
+        </div>
+      </section>
+      <!-- Registration and submission steps -->
+      <section class="section journey" id="timeline">
+        <p class="eyebrow">
+          03 / FROM IDEA TO BUILD
+        </p>
+        <h2>
+          YOUR NEXT <span>THREE MOVES.</span>
+        </h2>
+        <div class="steps">
+          <article>
+            <span>01</span>
+            <h3>
+              CLAIM YOUR SPOT
+            </h3>
+            <p>
+              Register for free using our official form. Solo creators under 18 are welcome.
+            </p>
+            <a data-register class="text-link">REGISTER NOW ↗</a>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>
+              STAY IN THE LOOP
+            </h3>
+            <p>
+              Join our WhatsApp community for event announcements and the latest updates.
+            </p>
+            <a data-community class="text-link">JOIN THE COMMUNITY ↗</a>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>
+              BUILD & SUBMIT
+            </h3>
+            <p>
+              Choose your track and bring your idea to life. The schedule and submission instructions will be announced soon.
+            </p>
+            <b class="status">DETAILS COMING SOON</b>
+          </article>
+        </div>
+      </section>
+      <!-- Sponsors and community links -->
+      <section class="section partners" id="partners">
+        <p class="eyebrow">
+          04 / BETTER TOGETHER
+        </p>
+        <h2>
+          BACKED BY <span>COMMUNITY.</span>
+        </h2>
+        <p class="partner-intro">
+          Meet our sponsors and communities supporting the next generation of builders.
+        </p>
+        <div class="partner-grid">
+          <article>
+            <a href="https://craftora.tech" target="_blank" rel="noopener noreferrer" class="partner-logo"><img src="assets/craftora.png" alt="Craftora"></a>
+            <div class="partner-info">
+              <h3>
+                CRAFTORA
+              </h3>
+              <p>
+                Connect with the Craftora community.
+              </p>
+              <div class="socials">
+                <a href="https://craftora.tech" target="_blank" rel="noopener noreferrer">WEBSITE ↗</a><a href="https://www.linkedin.com/company/craftorahq/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a><a href="https://x.com/craftorahq" target="_blank" rel="noopener noreferrer">X ↗</a>
+              </div>
+            </div>
+          </article>
+          <article>
+            <a href="https://osen.live" target="_blank" rel="noopener noreferrer" class="partner-logo"><img src="assets/osen.png" alt="OSEN"></a>
+            <div class="partner-info">
+              <h3>
+                OSEN
+              </h3>
+              <p>
+                Stay connected with the OSEN community.
+              </p>
+              <div class="socials">
+                <a href="https://osen.live" target="_blank" rel="noopener noreferrer">WEBSITE ↗</a><a href="https://www.linkedin.com/company/osenofficial" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a><a href="https://x.com/osenofficial" target="_blank" rel="noopener noreferrer">X ↗</a><a href="https://www.instagram.com/osenofficial/" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- Frequently asked questions -->
+      <section class="section faq" id="faq">
+        <p class="eyebrow">
+          05 / GOOD QUESTIONS
+        </p>
+        <div class="section-grid">
+          <h2>
+            BEFORE<br><span>YOU BUILD.</span>
+          </h2>
+          <div>
+            <details>
+              <summary>
+                Who can participate?<span>+</span>
+              </summary>
+              <p>
+                Fallen Horizons is for young creators under 18. Participation is solo: one developer per project.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Does it cost anything?<span>+</span>
+              </summary>
+              <p>
+                No. Registration is free and the hackathon is completely online.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Can I participate with a team?<span>+</span>
+              </summary>
+              <p>
+                This edition is solo only. You'll create and submit your own project.
+              </p>
+            </details>
+            <details>
+              <summary>
+                When is it, and how do I submit?<span>+</span>
+              </summary>
+              <p>
+                The final schedule, rules, and submission instructions will be shared soon. Join the WhatsApp community to receive updates.
+              </p>
+            </details>
+            <details>
+              <summary>
+                What can I build?<span>+</span>
+              </summary>
+              <p>
+                Choose Web Development for a website or web app, or Game Development for a playable game. Detailed track rules will be announced with the submission guidelines.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+      <!-- Registration and community buttons -->
+      <section class="final-cta">
+        <p class="eyebrow">
+          THE NEXT BIG THING STARTS WITH YOU.
+        </p>
+        <h2>
+          LESS “WHAT IF.”<br><span>MORE “I BUILT IT.”</span>
+        </h2>
+        <div class="actions">
+          <a class="button" data-register>REGISTER FOR FREE ↗</a><a class="button secondary" data-community>JOIN WHATSAPP ↗</a>
+        </div>
+        <p>
+          SOLO BUILDERS · UNDER 18 · FULLY ONLINE
+        </p>
+      </section>
+    </main>
+    <!-- Site footer -->
+    <footer>
+      <a class="brand" href="#home">FALLEN HORIZONS<small>HACKATHON 2026</small></a>
+      <div>
+        <a href="#tracks">TRACKS</a><a href="#partners">PARTNERS</a><a href="#faq">FAQ</a>
+      </div>
+      <span>MADE FOR THE NEXT GENERATION.</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
