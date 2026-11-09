@@ -1,7 +1,7 @@
 /* FALLEN HORIZONS: links, mobile navigation, and progress animations. */
 
 // 1. Edit these URLs to update all registration and community buttons.
-const REGISTRATION_URL = 'https://forms.gle/Bb37rdpx5hvhtoCMA';
+const REGISTRATION_URL = 'https://craftora.tech/hackathons/fallen-horizons-hackathon';
 const COMMUNITY_URL = 'https://chat.whatsapp.com/Gnkqhpx2OVAHygY6t2zgDB';
 
 function configureLinks(selector, url) {
