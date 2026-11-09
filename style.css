@@ -314,15 +314,13 @@ h1>span,h2>span {
 
 .ticker span {
   display: block;
-  animation: marquee 30s linear infinite;
+  animation: scroll 40s linear infinite;
   word-spacing: 12px
 }
 
-@keyframes marquee {
-  to {
-    transform: translateX(-40%)
-  }
-
+@keyframes scroll {
+    from { transform: translateX(100%); }
+    to   { transform: translateX(-100%); }
 }
 
 /* Shared sections and mission */
